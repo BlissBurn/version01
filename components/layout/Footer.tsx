@@ -9,7 +9,7 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Visit Us</h3>
-            <p className="text-muted-foreground">123 Baker Street<br />New York, NY 10001</p>
+            <p className="text-muted-foreground">123 Baker Street<br />Kurunegala</p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Hours</h3>
@@ -17,7 +17,7 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
-            <p className="text-muted-foreground">Tel: (555) 123-4567<br />Email: hello@blissburn.com</p>
+            <p className="text-muted-foreground">Tel: (+94) 012-345-6789<br />Email: test@blissburn.com</p>
           </div>
         </div>
         <div className="border-t mt-12 pt-8 text-center text-muted-foreground">

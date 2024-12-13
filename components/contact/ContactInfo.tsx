@@ -8,8 +8,8 @@ export function ContactInfo() {
         <div>
           <h3 className="font-semibold mb-2">Visit Us</h3>
           <p className="text-muted-foreground">
-            123 Baker Street<br />
-            New York, NY 10001
+            123 Baker Street,<br />
+            Kurunegala
           </p>
         </div>
       </div>
@@ -18,7 +18,7 @@ export function ContactInfo() {
         <Phone className="w-6 h-6 text-primary mt-1" />
         <div>
           <h3 className="font-semibold mb-2">Call Us</h3>
-          <p className="text-muted-foreground">(555) 123-4567</p>
+          <p className="text-muted-foreground">(+94) 123-456-7890</p>
         </div>
       </div>
 
@@ -26,7 +26,7 @@ export function ContactInfo() {
         <Mail className="w-6 h-6 text-primary mt-1" />
         <div>
           <h3 className="font-semibold mb-2">Email Us</h3>
-          <p className="text-muted-foreground">hello@blissburn.com</p>
+          <p className="text-muted-foreground">test@blissburn.com</p>
         </div>
       </div>
 
