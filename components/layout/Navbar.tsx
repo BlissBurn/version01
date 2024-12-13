@@ -60,13 +60,13 @@ export default function Navbar() {
 
       {/* Sidebar for Mobile */}
       {sidebarOpen && (
-        <div className="fixed inset-0 bg-black/60 z-50 flex">
+        <div className="fixed inset-0 bg-white flex">
           {/* Sidebar Panel */}
-          <div className="w-64 h-full bg-white shadow-lg p-6 animate-slide-in">
+          <div className="w-64 h-screen bg-white text-start pl-5 p-0 mt-3 animate-slide-in">
             {/* Close Button */}
             <button
               onClick={() => setSidebarOpen(false)} // Close sidebar
-              className="mb-6 focus:outline-none text-secondary hover:text-primary"
+              className="mb-6 mt-4 text-start focus:outline-none text-secondary hover:text-primary"
             >
               <svg
                 className="w-8 h-8"
@@ -85,12 +85,12 @@ export default function Navbar() {
             </button>
 
             {/* Navigation Links */}
-            <nav className="space-y-6">
+            <nav className="space-y-6 bg-white">
               {navigationLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="block text-lg text-secondary hover:text-primary font-medium transition-colors"
+                  className="block text-lg text-secondary hover:text-primary font-medium bg-white"
                   onClick={() => setSidebarOpen(false)} // Close sidebar after clicking
                 >
                   {link.label}
